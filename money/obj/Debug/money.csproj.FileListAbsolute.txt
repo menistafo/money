@@ -1,0 +1,778 @@
+C:\Users\russi\source\repos\money\money\obj\Debug\money.csprojAssemblyReference.cache
+C:\Users\russi\source\repos\money\money\obj\Debug\MainWindow.g.cs
+C:\Users\russi\source\repos\money\money\obj\Debug\App.g.cs
+C:\Users\russi\source\repos\money\money\obj\Debug\money_MarkupCompile.cache
+C:\Users\russi\source\repos\money\money\obj\Debug\money_MarkupCompile.lref
+C:\Users\russi\source\repos\money\money\bin\Debug\money.exe.config
+C:\Users\russi\source\repos\money\money\bin\Debug\money.exe
+C:\Users\russi\source\repos\money\money\bin\Debug\money.pdb
+C:\Users\russi\source\repos\money\money\bin\Debug\MaterialDesignColors.dll
+C:\Users\russi\source\repos\money\money\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\russi\source\repos\money\money\bin\Debug\MaterialDesignColors.pdb
+C:\Users\russi\source\repos\money\money\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\russi\source\repos\money\money\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\russi\source\repos\money\money\obj\Debug\UserControlhome.g.cs
+C:\Users\russi\source\repos\money\money\obj\Debug\App.baml
+C:\Users\russi\source\repos\money\money\obj\Debug\MainWindow.baml
+C:\Users\russi\source\repos\money\money\obj\Debug\UserControlhome.baml
+C:\Users\russi\source\repos\money\money\obj\Debug\money.g.resources
+C:\Users\russi\source\repos\money\money\obj\Debug\money.Properties.Resources.resources
+C:\Users\russi\source\repos\money\money\obj\Debug\money.csproj.GenerateResource.cache
+C:\Users\russi\source\repos\money\money\obj\Debug\money.csproj.CoreCompileInputs.cache
+C:\Users\russi\source\repos\money\money\obj\Debug\money.csproj.CopyComplete
+C:\Users\russi\source\repos\money\money\obj\Debug\money.exe
+C:\Users\russi\source\repos\money\money\obj\Debug\money.pdb
+C:\Users\russi\source\repos\money\money\obj\Debug\UserControl_payroll.g.cs
+C:\Users\russi\source\repos\money\money\obj\Debug\UserControl_payroll.baml
+C:\dont work\money\money\bin\Debug\money.exe.config
+C:\dont work\money\money\bin\Debug\money.exe
+C:\dont work\money\money\bin\Debug\money.pdb
+C:\dont work\money\money\bin\Debug\MaterialDesignColors.dll
+C:\dont work\money\money\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\dont work\money\money\bin\Debug\MaterialDesignColors.pdb
+C:\dont work\money\money\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\dont work\money\money\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\dont work\money\money\obj\Debug\money.csprojAssemblyReference.cache
+C:\dont work\money\money\obj\Debug\MainWindow.g.cs
+C:\dont work\money\money\obj\Debug\UserControlhome.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_payroll.g.cs
+C:\dont work\money\money\obj\Debug\App.g.cs
+C:\dont work\money\money\obj\Debug\money_MarkupCompile.cache
+C:\dont work\money\money\obj\Debug\money_MarkupCompile.lref
+C:\dont work\money\money\obj\Debug\App.baml
+C:\dont work\money\money\obj\Debug\MainWindow.baml
+C:\dont work\money\money\obj\Debug\UserControlhome.baml
+C:\dont work\money\money\obj\Debug\UserControl_payroll.baml
+C:\dont work\money\money\obj\Debug\money.g.resources
+C:\dont work\money\money\obj\Debug\money.Properties.Resources.resources
+C:\dont work\money\money\obj\Debug\money.csproj.GenerateResource.cache
+C:\dont work\money\money\obj\Debug\money.csproj.CoreCompileInputs.cache
+C:\dont work\money\money\obj\Debug\money.csproj.CopyComplete
+C:\dont work\money\money\obj\Debug\money.exe
+C:\dont work\money\money\obj\Debug\money.pdb
+C:\dont work\money\money\obj\Debug\UserControl_Training.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_Training.baml
+C:\dont work\money\money\obj\Debug\UserControl_graph.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_graph.baml
+C:\dont work\money\money\obj\Debug\Testing.g.cs
+C:\dont work\money\money\obj\Debug\Testing.baml
+C:\dont work\money\money\obj\Debug\Graph.g.cs
+C:\dont work\money\money\obj\Debug\Graph.baml
+C:\dont work\money\money\obj\Debug\Database.g.cs
+C:\dont work\money\money\obj\Debug\Database.baml
+C:\dont work\money\money\obj\Debug\UserControl_Data_types.g.cs
+C:\dont work\money\money\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_Data_types.baml
+C:\dont work\money\money\obj\Debug\UserControl_pgzdb_schema.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_pgzdb_schema.baml
+C:\dont work\money\money\obj\Debug\UserControl_ebzdb_schema.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_ebzdb_schema.baml
+C:\dont work\money\money\obj\Debug\UserControl_ebzdb_schema_bank.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_ebzdb_schema_bank.baml
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_pbo_z.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_pbo_z.baml
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_notif_z.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_notif_z.baml
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_plan_graph_z.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_plan_graph_z.baml
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_integration_z.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_integration_z.baml
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_rkpo_z.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_rkpo_z.baml
+C:\dont work\money\money\obj\Debug\UserControl_rpgzdb.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_rpgzdb.baml
+C:\dont work\money\money\obj\Debug\UserControl_pgzdbfcs_zakupki_dev.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_pgzdbfcs_zakupki_dev.baml
+C:\dont work\money\money\obj\Debug\UserControl_ebzdb_example_11.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_ebzdb_example_11.baml
+C:\dont work\money\money\obj\Debug\UserControl_ebzdb_example_4.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_ebzdb_example_4.baml
+C:\dont work\money\money\obj\Debug\UserControl_ebzdb_example_3.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_ebzdb_example_3.baml
+C:\dont work\money\money\obj\Debug\UserControl_ebzdb_example_7.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_ebzdb_example_7.baml
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_example_16.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_example_16.baml
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_example_4_18.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_example_priz.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_example_timestamp.g.cs
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_example_4_18.baml
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_example_priz.baml
+C:\dont work\money\money\obj\Debug\UserControl_fcszdb_example_timestamp.baml
+C:\dont work\money\money\obj\Debug\testing_och_preconditions.g.cs
+C:\dont work\money\money\obj\Debug\testing_och_preconditions.baml
+C:\dont work\money\money\obj\Debug\testing_och_and_objects.g.cs
+C:\dont work\money\money\obj\Debug\testing_och_and_objects.baml
+C:\dont work\money\money\obj\Debug\testing_bugs.g.cs
+C:\dont work\money\money\obj\Debug\testing_bugs_example.g.cs
+C:\dont work\money\money\obj\Debug\testing_bugs.baml
+C:\dont work\money\money\obj\Debug\testing_bugs_example.baml
+C:\dont work\money\money\obj\Debug\bugs_example_2.g.cs
+C:\dont work\money\money\obj\Debug\bugs_example_2.baml
+C:\dont work\money\money\obj\Debug\testing_widgets_data.g.cs
+C:\dont work\money\money\obj\Debug\testing_widgets_data.baml
+C:\dont work\money\money\obj\Debug\testing_widgets_card.g.cs
+C:\dont work\money\money\obj\Debug\testing_widgets_card.baml
+C:\dont work\money\money\obj\Debug\testing_mini_och.g.cs
+C:\dont work\money\money\obj\Debug\testing_mini_och.baml
+D:\money\money\obj\Debug\bugs_example_2.g.cs
+D:\money\money\obj\Debug\Database.g.cs
+D:\money\money\obj\Debug\Graph.g.cs
+D:\money\money\obj\Debug\MainWindow.g.cs
+D:\money\money\obj\Debug\Testing.g.cs
+D:\money\money\obj\Debug\testing_bugs.g.cs
+D:\money\money\obj\Debug\testing_bugs_example.g.cs
+D:\money\money\obj\Debug\testing_mini_och.g.cs
+D:\money\money\obj\Debug\testing_mp_1.g.cs
+D:\money\money\obj\Debug\testing_och_and_objects.g.cs
+D:\money\money\obj\Debug\testing_och_preconditions.g.cs
+D:\money\money\obj\Debug\testing_widgets_card.g.cs
+D:\money\money\obj\Debug\testing_widgets_data.g.cs
+D:\money\money\obj\Debug\UserControlhome.g.cs
+D:\money\money\obj\Debug\UserControl_Data_types.g.cs
+D:\money\money\obj\Debug\UserControl_ebzdb_example_11.g.cs
+D:\money\money\obj\Debug\UserControl_ebzdb_example_3.g.cs
+D:\money\money\obj\Debug\UserControl_ebzdb_example_4.g.cs
+D:\money\money\obj\Debug\UserControl_ebzdb_example_7.g.cs
+D:\money\money\obj\Debug\UserControl_ebzdb_schema.g.cs
+D:\money\money\obj\Debug\UserControl_ebzdb_schema_bank.g.cs
+D:\money\money\obj\Debug\UserControl_fcszdb_example_16.g.cs
+D:\money\money\obj\Debug\UserControl_fcszdb_example_4_18.g.cs
+D:\money\money\obj\Debug\UserControl_fcszdb_example_priz.g.cs
+D:\money\money\obj\Debug\UserControl_fcszdb_example_timestamp.g.cs
+D:\money\money\obj\Debug\UserControl_fcszdb_integration_z.g.cs
+D:\money\money\obj\Debug\UserControl_fcszdb_notif_z.g.cs
+D:\money\money\obj\Debug\UserControl_fcszdb_pbo_z.g.cs
+D:\money\money\obj\Debug\UserControl_fcszdb_plan_graph_z.g.cs
+D:\money\money\obj\Debug\UserControl_fcszdb_rkpo_z.g.cs
+D:\money\money\obj\Debug\UserControl_graph.g.cs
+D:\money\money\obj\Debug\UserControl_payroll.g.cs
+D:\money\money\obj\Debug\UserControl_pgzdbfcs_zakupki_dev.g.cs
+D:\money\money\obj\Debug\UserControl_pgzdb_schema.g.cs
+D:\money\money\obj\Debug\UserControl_rpgzdb.g.cs
+D:\money\money\obj\Debug\UserControl_Training.g.cs
+D:\money\money\obj\Debug\App.g.cs
+D:\money\money\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\money\money\obj\Debug\money_MarkupCompile.cache
+D:\money\money\obj\Debug\money_MarkupCompile.lref
+D:\money\money\obj\Debug\money.exe
+D:\money\money\obj\Debug\money.pdb
+D:\money\money\bin\Debug\money.exe.config
+D:\money\money\bin\Debug\money.exe
+D:\money\money\bin\Debug\money.pdb
+D:\money\money\bin\Debug\MaterialDesignColors.dll
+D:\money\money\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\money\money\bin\Debug\MaterialDesignColors.pdb
+D:\money\money\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\money\money\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\money\money\obj\Debug\App.baml
+D:\money\money\obj\Debug\bugs_example_2.baml
+D:\money\money\obj\Debug\Database.baml
+D:\money\money\obj\Debug\Graph.baml
+D:\money\money\obj\Debug\MainWindow.baml
+D:\money\money\obj\Debug\Testing.baml
+D:\money\money\obj\Debug\testing_bugs.baml
+D:\money\money\obj\Debug\testing_bugs_example.baml
+D:\money\money\obj\Debug\testing_mini_och.baml
+D:\money\money\obj\Debug\testing_mp_1.baml
+D:\money\money\obj\Debug\testing_och_and_objects.baml
+D:\money\money\obj\Debug\testing_och_preconditions.baml
+D:\money\money\obj\Debug\testing_widgets_card.baml
+D:\money\money\obj\Debug\testing_widgets_data.baml
+D:\money\money\obj\Debug\UserControlhome.baml
+D:\money\money\obj\Debug\UserControl_Data_types.baml
+D:\money\money\obj\Debug\UserControl_ebzdb_example_11.baml
+D:\money\money\obj\Debug\UserControl_ebzdb_example_3.baml
+D:\money\money\obj\Debug\UserControl_ebzdb_example_4.baml
+D:\money\money\obj\Debug\UserControl_ebzdb_example_7.baml
+D:\money\money\obj\Debug\UserControl_ebzdb_schema.baml
+D:\money\money\obj\Debug\UserControl_ebzdb_schema_bank.baml
+D:\money\money\obj\Debug\UserControl_fcszdb_example_16.baml
+D:\money\money\obj\Debug\UserControl_fcszdb_example_4_18.baml
+D:\money\money\obj\Debug\UserControl_fcszdb_example_priz.baml
+D:\money\money\obj\Debug\UserControl_fcszdb_example_timestamp.baml
+D:\money\money\obj\Debug\UserControl_fcszdb_integration_z.baml
+D:\money\money\obj\Debug\UserControl_fcszdb_notif_z.baml
+D:\money\money\obj\Debug\UserControl_fcszdb_pbo_z.baml
+D:\money\money\obj\Debug\UserControl_fcszdb_plan_graph_z.baml
+D:\money\money\obj\Debug\UserControl_fcszdb_rkpo_z.baml
+D:\money\money\obj\Debug\UserControl_graph.baml
+D:\money\money\obj\Debug\UserControl_payroll.baml
+D:\money\money\obj\Debug\UserControl_pgzdbfcs_zakupki_dev.baml
+D:\money\money\obj\Debug\UserControl_pgzdb_schema.baml
+D:\money\money\obj\Debug\UserControl_rpgzdb.baml
+D:\money\money\obj\Debug\UserControl_Training.baml
+D:\money\money\obj\Debug\money.g.resources
+D:\money\money\obj\Debug\money.Properties.Resources.resources
+D:\money\money\obj\Debug\money.csproj.GenerateResource.cache
+D:\money\money\obj\Debug\money.csproj.CoreCompileInputs.cache
+D:\money\money\obj\Debug\money.csproj.CopyComplete
+D:\money\money\obj\Debug\testing_mp_2.g.cs
+D:\money\money\obj\Debug\testing_mp_2.baml
+D:\money\money\obj\Debug\testing_mp_3.g.cs
+D:\money\money\obj\Debug\testing_mp_4.g.cs
+D:\money\money\obj\Debug\testing_mp_3.baml
+D:\money\money\obj\Debug\testing_mp_4.baml
+D:\money\money\obj\Debug\testing_mp_5.g.cs
+D:\money\money\obj\Debug\testing_mp_6.g.cs
+D:\money\money\obj\Debug\testing_mp_5.baml
+D:\money\money\obj\Debug\testing_mp_6.baml
+D:\money\money\obj\Debug\testing_pak_1.g.cs
+D:\money\money\obj\Debug\testing_pak_1.baml
+D:\money\money\obj\Debug\testing_pak_2.g.cs
+D:\money\money\obj\Debug\testing_pak_2.baml
+D:\money\money\obj\Debug\testing_pak_3.g.cs
+D:\money\money\obj\Debug\testing_pak_3.baml
+D:\money\money\obj\Debug\sert_akimov.g.cs
+D:\money\money\obj\Debug\sert_gorbunov.g.cs
+D:\money\money\obj\Debug\sert_savina.g.cs
+D:\money\money\obj\Debug\sert_akimov.baml
+D:\money\money\obj\Debug\sert_gorbunov.baml
+D:\money\money\obj\Debug\sert_savina.baml
+D:\money\money\obj\Debug\pak_you _need_to_know.g.cs
+D:\money\money\obj\Debug\pak_you _need_to_know.baml
+C:\dont work\money\money\obj\Debug\lko.g.cs
+C:\dont work\money\money\obj\Debug\lko_1.g.cs
+C:\dont work\money\money\obj\Debug\pak_you _need_to_know.g.cs
+C:\dont work\money\money\obj\Debug\sert_akimov.g.cs
+C:\dont work\money\money\obj\Debug\sert_gorbunov.g.cs
+C:\dont work\money\money\obj\Debug\sert_savina.g.cs
+C:\dont work\money\money\obj\Debug\testing_mp_1.g.cs
+C:\dont work\money\money\obj\Debug\testing_mp_2.g.cs
+C:\dont work\money\money\obj\Debug\testing_mp_3.g.cs
+C:\dont work\money\money\obj\Debug\testing_mp_4.g.cs
+C:\dont work\money\money\obj\Debug\testing_mp_5.g.cs
+C:\dont work\money\money\obj\Debug\testing_mp_6.g.cs
+C:\dont work\money\money\obj\Debug\testing_pak_1.g.cs
+C:\dont work\money\money\obj\Debug\testing_pak_2.g.cs
+C:\dont work\money\money\obj\Debug\testing_pak_3.g.cs
+C:\dont work\money\money\obj\Debug\pak_you _need_to_know.baml
+C:\dont work\money\money\obj\Debug\sert_akimov.baml
+C:\dont work\money\money\obj\Debug\sert_gorbunov.baml
+C:\dont work\money\money\obj\Debug\sert_savina.baml
+C:\dont work\money\money\obj\Debug\testing_mp_1.baml
+C:\dont work\money\money\obj\Debug\testing_mp_2.baml
+C:\dont work\money\money\obj\Debug\testing_mp_3.baml
+C:\dont work\money\money\obj\Debug\testing_mp_4.baml
+C:\dont work\money\money\obj\Debug\testing_mp_5.baml
+C:\dont work\money\money\obj\Debug\testing_mp_6.baml
+C:\dont work\money\money\obj\Debug\testing_pak_1.baml
+C:\dont work\money\money\obj\Debug\testing_pak_2.baml
+C:\dont work\money\money\obj\Debug\testing_pak_3.baml
+C:\dont work\money\money\obj\Debug\lko.baml
+C:\dont work\money\money\obj\Debug\lko_1.baml
+C:\dont work\money\money\obj\Debug\lko_2.g.cs
+C:\dont work\money\money\obj\Debug\lko_2.baml
+C:\dont work\money\money\obj\Debug\lko_3.g.cs
+C:\dont work\money\money\obj\Debug\lko_3.baml
+C:\dont work\money\money\obj\Debug\lko_4.g.cs
+C:\dont work\money\money\obj\Debug\lko_4.baml
+C:\dont work\money\money\obj\Debug\lko_5.g.cs
+C:\dont work\money\money\obj\Debug\lko_5.baml
+C:\dont work\money\money\obj\Debug\lko_6.g.cs
+C:\dont work\money\money\obj\Debug\lko_7.g.cs
+C:\dont work\money\money\obj\Debug\lko_6.baml
+C:\dont work\money\money\obj\Debug\lko_7.baml
+C:\dont work\money\money\obj\Debug\lko_8.g.cs
+C:\dont work\money\money\obj\Debug\lko_9.g.cs
+C:\dont work\money\money\obj\Debug\lko_8.baml
+C:\dont work\money\money\obj\Debug\lko_9.baml
+C:\dont work\money\money\obj\Debug\lko_10.g.cs
+C:\dont work\money\money\obj\Debug\lko_10.baml
+D:\money\money\obj\Debug\lko.g.cs
+D:\money\money\obj\Debug\lko_1.g.cs
+D:\money\money\obj\Debug\lko_10.g.cs
+D:\money\money\obj\Debug\lko_2.g.cs
+D:\money\money\obj\Debug\lko_3.g.cs
+D:\money\money\obj\Debug\lko_4.g.cs
+D:\money\money\obj\Debug\lko_5.g.cs
+D:\money\money\obj\Debug\lko_6.g.cs
+D:\money\money\obj\Debug\lko_7.g.cs
+D:\money\money\obj\Debug\lko_8.g.cs
+D:\money\money\obj\Debug\lko_9.g.cs
+D:\money\money\obj\Debug\lko.baml
+D:\money\money\obj\Debug\lko_1.baml
+D:\money\money\obj\Debug\lko_10.baml
+D:\money\money\obj\Debug\lko_2.baml
+D:\money\money\obj\Debug\lko_3.baml
+D:\money\money\obj\Debug\lko_4.baml
+D:\money\money\obj\Debug\lko_5.baml
+D:\money\money\obj\Debug\lko_6.baml
+D:\money\money\obj\Debug\lko_7.baml
+D:\money\money\obj\Debug\lko_8.baml
+D:\money\money\obj\Debug\lko_9.baml
+D:\money\money\obj\Debug\lko_11.g.cs
+D:\money\money\obj\Debug\lko_11.baml
+D:\money\money\obj\Debug\lko_12.g.cs
+D:\money\money\obj\Debug\lko_12.baml
+D:\money\money\obj\Debug\lko_13.g.cs
+D:\money\money\obj\Debug\lko_13.baml
+D:\money\money\obj\Debug\lko_14.g.cs
+D:\money\money\obj\Debug\lko_14.baml
+D:\money\money\obj\Debug\lko_15.g.cs
+D:\money\money\obj\Debug\lko_15.baml
+D:\money\money\obj\Debug\lko_16.g.cs
+D:\money\money\obj\Debug\lko_16.baml
+D:\money\money\obj\Debug\lko_17.g.cs
+D:\money\money\obj\Debug\lko_18.g.cs
+D:\money\money\obj\Debug\lko_17.baml
+D:\money\money\obj\Debug\lko_18.baml
+D:\money\money\obj\Debug\lko_19.g.cs
+D:\money\money\obj\Debug\lko_20.g.cs
+D:\money\money\obj\Debug\lko_19.baml
+D:\money\money\obj\Debug\lko_20.baml
+D:\money\money\obj\Debug\lko_21.g.cs
+D:\money\money\obj\Debug\lko_22.g.cs
+D:\money\money\obj\Debug\lko_21.baml
+D:\money\money\obj\Debug\lko_22.baml
+D:\money\money\obj\Debug\lko_23.g.cs
+D:\money\money\obj\Debug\lko_23.baml
+D:\money\money\obj\Debug\money.csprojAssemblyReference.cache
+C:\Users\support1\Desktop\money\money\bin\Debug\money.exe.config
+C:\Users\support1\Desktop\money\money\bin\Debug\money.exe
+C:\Users\support1\Desktop\money\money\bin\Debug\money.pdb
+C:\Users\support1\Desktop\money\money\bin\Debug\MaterialDesignColors.dll
+C:\Users\support1\Desktop\money\money\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\support1\Desktop\money\money\bin\Debug\MaterialDesignColors.pdb
+C:\Users\support1\Desktop\money\money\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\support1\Desktop\money\money\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_2.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\bugs_example_2.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\Database.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\Graph.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_1.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_10.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_11.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_12.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_13.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_14.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_15.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_16.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_17.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_18.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_19.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_2.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_20.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_21.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_22.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_23.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_3.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_4.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_5.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_6.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_7.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_8.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_9.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\MainWindow.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\pak_you _need_to_know.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\sert_akimov.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\sert_gorbunov.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\sert_savina.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\Testing.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_bugs.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_bugs_example.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mini_och.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mp_1.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mp_2.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mp_3.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mp_4.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mp_5.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mp_6.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_och_and_objects.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_och_preconditions.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_pak_1.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_pak_2.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_pak_3.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_widgets_card.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_widgets_data.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControlhome.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_Data_types.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_ebzdb_example_11.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_ebzdb_example_3.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_ebzdb_example_4.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_ebzdb_example_7.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_ebzdb_schema.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_ebzdb_schema_bank.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_example_16.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_example_4_18.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_example_priz.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_example_timestamp.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_integration_z.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_notif_z.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_pbo_z.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_plan_graph_z.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_rkpo_z.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_graph.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_payroll.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_pgzdbfcs_zakupki_dev.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_pgzdb_schema.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_rpgzdb.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_Training.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\App.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\money_MarkupCompile.cache
+C:\Users\support1\Desktop\money\money\obj\Debug\money_MarkupCompile.lref
+C:\Users\support1\Desktop\money\money\obj\Debug\App.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\bugs_example_2.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\Database.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\Graph.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_1.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_10.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_11.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_12.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_13.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_14.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_15.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_16.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_17.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_18.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_19.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_20.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_21.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_22.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_23.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_3.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_4.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_5.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_6.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_7.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_8.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_9.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\MainWindow.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\pak_you _need_to_know.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\sert_akimov.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\sert_gorbunov.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\sert_savina.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\Testing.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_bugs.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_bugs_example.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mini_och.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mp_1.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mp_2.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mp_3.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mp_4.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mp_5.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_mp_6.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_och_and_objects.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_och_preconditions.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_pak_1.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_pak_2.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_pak_3.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_widgets_card.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\testing_widgets_data.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControlhome.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_Data_types.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_ebzdb_example_11.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_ebzdb_example_3.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_ebzdb_example_4.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_ebzdb_example_7.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_ebzdb_schema.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_ebzdb_schema_bank.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_example_16.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_example_4_18.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_example_priz.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_example_timestamp.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_integration_z.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_notif_z.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_pbo_z.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_plan_graph_z.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_fcszdb_rkpo_z.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_graph.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_payroll.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_pgzdbfcs_zakupki_dev.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_pgzdb_schema.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_rpgzdb.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\UserControl_Training.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\money.g.resources
+C:\Users\support1\Desktop\money\money\obj\Debug\money.Properties.Resources.resources
+C:\Users\support1\Desktop\money\money\obj\Debug\money.csproj.GenerateResource.cache
+C:\Users\support1\Desktop\money\money\obj\Debug\money.csproj.CoreCompileInputs.cache
+C:\Users\support1\Desktop\money\money\obj\Debug\money.csproj.CopyComplete
+C:\Users\support1\Desktop\money\money\obj\Debug\money.exe
+C:\Users\support1\Desktop\money\money\obj\Debug\money.pdb
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_24.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_24.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_25.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_26.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_25.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_26.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_27.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_27.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_28.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\lko_28.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_1.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_2.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_1.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_2.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_3.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_4.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_5.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_6.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_7.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_3.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_4.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_5.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_6.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_7.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_10.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_11.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_12.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_13.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_14.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_15.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_8.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_9.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_10.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_11.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_12.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_13.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_14.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_15.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_8.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_9.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_16.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_17.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_18.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_19.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_20.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_16.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_17.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_18.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_19.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_20.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_21.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_21.baml
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_22.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\info_ds_22.baml
+E:\money\money\bin\Debug\money.exe.config
+E:\money\money\bin\Debug\money.exe
+E:\money\money\bin\Debug\money.pdb
+E:\money\money\bin\Debug\MaterialDesignColors.dll
+E:\money\money\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\money\money\bin\Debug\MaterialDesignColors.pdb
+E:\money\money\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\money\money\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\money\money\obj\Debug\money.csprojAssemblyReference.cache
+E:\money\money\obj\Debug\lko_2.baml
+E:\money\money\obj\Debug\bugs_example_2.g.cs
+E:\money\money\obj\Debug\Database.g.cs
+E:\money\money\obj\Debug\Graph.g.cs
+E:\money\money\obj\Debug\info_ds.g.cs
+E:\money\money\obj\Debug\info_ds_1.g.cs
+E:\money\money\obj\Debug\info_ds_10.g.cs
+E:\money\money\obj\Debug\info_ds_11.g.cs
+E:\money\money\obj\Debug\info_ds_12.g.cs
+E:\money\money\obj\Debug\info_ds_13.g.cs
+E:\money\money\obj\Debug\info_ds_14.g.cs
+E:\money\money\obj\Debug\info_ds_15.g.cs
+E:\money\money\obj\Debug\info_ds_16.g.cs
+E:\money\money\obj\Debug\info_ds_17.g.cs
+E:\money\money\obj\Debug\info_ds_18.g.cs
+E:\money\money\obj\Debug\info_ds_19.g.cs
+E:\money\money\obj\Debug\info_ds_2.g.cs
+E:\money\money\obj\Debug\info_ds_20.g.cs
+E:\money\money\obj\Debug\info_ds_21.g.cs
+E:\money\money\obj\Debug\info_ds_22.g.cs
+E:\money\money\obj\Debug\info_ds_3.g.cs
+E:\money\money\obj\Debug\info_ds_4.g.cs
+E:\money\money\obj\Debug\info_ds_5.g.cs
+E:\money\money\obj\Debug\info_ds_6.g.cs
+E:\money\money\obj\Debug\info_ds_7.g.cs
+E:\money\money\obj\Debug\info_ds_8.g.cs
+E:\money\money\obj\Debug\info_ds_9.g.cs
+E:\money\money\obj\Debug\lko.g.cs
+E:\money\money\obj\Debug\lko_1.g.cs
+E:\money\money\obj\Debug\lko_10.g.cs
+E:\money\money\obj\Debug\lko_11.g.cs
+E:\money\money\obj\Debug\lko_12.g.cs
+E:\money\money\obj\Debug\lko_13.g.cs
+E:\money\money\obj\Debug\lko_14.g.cs
+E:\money\money\obj\Debug\lko_15.g.cs
+E:\money\money\obj\Debug\lko_16.g.cs
+E:\money\money\obj\Debug\lko_17.g.cs
+E:\money\money\obj\Debug\lko_18.g.cs
+E:\money\money\obj\Debug\lko_19.g.cs
+E:\money\money\obj\Debug\lko_2.g.cs
+E:\money\money\obj\Debug\lko_20.g.cs
+E:\money\money\obj\Debug\lko_21.g.cs
+E:\money\money\obj\Debug\lko_22.g.cs
+E:\money\money\obj\Debug\lko_23.g.cs
+E:\money\money\obj\Debug\lko_24.g.cs
+E:\money\money\obj\Debug\lko_25.g.cs
+E:\money\money\obj\Debug\lko_26.g.cs
+E:\money\money\obj\Debug\lko_27.g.cs
+E:\money\money\obj\Debug\lko_28.g.cs
+E:\money\money\obj\Debug\lko_3.g.cs
+E:\money\money\obj\Debug\lko_4.g.cs
+E:\money\money\obj\Debug\lko_5.g.cs
+E:\money\money\obj\Debug\lko_6.g.cs
+E:\money\money\obj\Debug\lko_7.g.cs
+E:\money\money\obj\Debug\lko_8.g.cs
+E:\money\money\obj\Debug\lko_9.g.cs
+E:\money\money\obj\Debug\MainWindow.g.cs
+E:\money\money\obj\Debug\pak_you _need_to_know.g.cs
+E:\money\money\obj\Debug\sert_akimov.g.cs
+E:\money\money\obj\Debug\sert_gorbunov.g.cs
+E:\money\money\obj\Debug\sert_savina.g.cs
+E:\money\money\obj\Debug\Testing.g.cs
+E:\money\money\obj\Debug\testing_bugs.g.cs
+E:\money\money\obj\Debug\testing_bugs_example.g.cs
+E:\money\money\obj\Debug\testing_mini_och.g.cs
+E:\money\money\obj\Debug\testing_mp_1.g.cs
+E:\money\money\obj\Debug\testing_mp_2.g.cs
+E:\money\money\obj\Debug\testing_mp_3.g.cs
+E:\money\money\obj\Debug\testing_mp_4.g.cs
+E:\money\money\obj\Debug\testing_mp_5.g.cs
+E:\money\money\obj\Debug\testing_mp_6.g.cs
+E:\money\money\obj\Debug\testing_och_and_objects.g.cs
+E:\money\money\obj\Debug\testing_och_preconditions.g.cs
+E:\money\money\obj\Debug\testing_pak_1.g.cs
+E:\money\money\obj\Debug\testing_pak_2.g.cs
+E:\money\money\obj\Debug\testing_pak_3.g.cs
+E:\money\money\obj\Debug\testing_widgets_card.g.cs
+E:\money\money\obj\Debug\testing_widgets_data.g.cs
+E:\money\money\obj\Debug\UserControlhome.g.cs
+E:\money\money\obj\Debug\UserControl_Data_types.g.cs
+E:\money\money\obj\Debug\UserControl_ebzdb_example_11.g.cs
+E:\money\money\obj\Debug\UserControl_ebzdb_example_3.g.cs
+E:\money\money\obj\Debug\UserControl_ebzdb_example_4.g.cs
+E:\money\money\obj\Debug\UserControl_ebzdb_example_7.g.cs
+E:\money\money\obj\Debug\UserControl_ebzdb_schema.g.cs
+E:\money\money\obj\Debug\UserControl_ebzdb_schema_bank.g.cs
+E:\money\money\obj\Debug\UserControl_fcszdb_example_16.g.cs
+E:\money\money\obj\Debug\UserControl_fcszdb_example_4_18.g.cs
+E:\money\money\obj\Debug\UserControl_fcszdb_example_priz.g.cs
+E:\money\money\obj\Debug\UserControl_fcszdb_example_timestamp.g.cs
+E:\money\money\obj\Debug\UserControl_fcszdb_integration_z.g.cs
+E:\money\money\obj\Debug\UserControl_fcszdb_notif_z.g.cs
+E:\money\money\obj\Debug\UserControl_fcszdb_pbo_z.g.cs
+E:\money\money\obj\Debug\UserControl_fcszdb_plan_graph_z.g.cs
+E:\money\money\obj\Debug\UserControl_fcszdb_rkpo_z.g.cs
+E:\money\money\obj\Debug\UserControl_graph.g.cs
+E:\money\money\obj\Debug\UserControl_payroll.g.cs
+E:\money\money\obj\Debug\UserControl_pgzdbfcs_zakupki_dev.g.cs
+E:\money\money\obj\Debug\UserControl_pgzdb_schema.g.cs
+E:\money\money\obj\Debug\UserControl_rpgzdb.g.cs
+E:\money\money\obj\Debug\UserControl_Training.g.cs
+E:\money\money\obj\Debug\App.g.cs
+E:\money\money\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\money\money\obj\Debug\money_MarkupCompile.cache
+E:\money\money\obj\Debug\money_MarkupCompile.lref
+E:\money\money\obj\Debug\App.baml
+E:\money\money\obj\Debug\bugs_example_2.baml
+E:\money\money\obj\Debug\Database.baml
+E:\money\money\obj\Debug\Graph.baml
+E:\money\money\obj\Debug\info_ds.baml
+E:\money\money\obj\Debug\info_ds_1.baml
+E:\money\money\obj\Debug\info_ds_10.baml
+E:\money\money\obj\Debug\info_ds_11.baml
+E:\money\money\obj\Debug\info_ds_12.baml
+E:\money\money\obj\Debug\info_ds_13.baml
+E:\money\money\obj\Debug\info_ds_14.baml
+E:\money\money\obj\Debug\info_ds_15.baml
+E:\money\money\obj\Debug\info_ds_16.baml
+E:\money\money\obj\Debug\info_ds_17.baml
+E:\money\money\obj\Debug\info_ds_18.baml
+E:\money\money\obj\Debug\info_ds_19.baml
+E:\money\money\obj\Debug\info_ds_2.baml
+E:\money\money\obj\Debug\info_ds_20.baml
+E:\money\money\obj\Debug\info_ds_21.baml
+E:\money\money\obj\Debug\info_ds_22.baml
+E:\money\money\obj\Debug\info_ds_3.baml
+E:\money\money\obj\Debug\info_ds_4.baml
+E:\money\money\obj\Debug\info_ds_5.baml
+E:\money\money\obj\Debug\info_ds_6.baml
+E:\money\money\obj\Debug\info_ds_7.baml
+E:\money\money\obj\Debug\info_ds_8.baml
+E:\money\money\obj\Debug\info_ds_9.baml
+E:\money\money\obj\Debug\lko.baml
+E:\money\money\obj\Debug\lko_1.baml
+E:\money\money\obj\Debug\lko_10.baml
+E:\money\money\obj\Debug\lko_11.baml
+E:\money\money\obj\Debug\lko_12.baml
+E:\money\money\obj\Debug\lko_13.baml
+E:\money\money\obj\Debug\lko_14.baml
+E:\money\money\obj\Debug\lko_15.baml
+E:\money\money\obj\Debug\lko_16.baml
+E:\money\money\obj\Debug\lko_17.baml
+E:\money\money\obj\Debug\lko_18.baml
+E:\money\money\obj\Debug\lko_19.baml
+E:\money\money\obj\Debug\lko_20.baml
+E:\money\money\obj\Debug\lko_21.baml
+E:\money\money\obj\Debug\lko_22.baml
+E:\money\money\obj\Debug\lko_23.baml
+E:\money\money\obj\Debug\lko_24.baml
+E:\money\money\obj\Debug\lko_25.baml
+E:\money\money\obj\Debug\lko_26.baml
+E:\money\money\obj\Debug\lko_27.baml
+E:\money\money\obj\Debug\lko_28.baml
+E:\money\money\obj\Debug\lko_3.baml
+E:\money\money\obj\Debug\lko_4.baml
+E:\money\money\obj\Debug\lko_5.baml
+E:\money\money\obj\Debug\lko_6.baml
+E:\money\money\obj\Debug\lko_7.baml
+E:\money\money\obj\Debug\lko_8.baml
+E:\money\money\obj\Debug\lko_9.baml
+E:\money\money\obj\Debug\MainWindow.baml
+E:\money\money\obj\Debug\pak_you _need_to_know.baml
+E:\money\money\obj\Debug\sert_akimov.baml
+E:\money\money\obj\Debug\sert_gorbunov.baml
+E:\money\money\obj\Debug\sert_savina.baml
+E:\money\money\obj\Debug\Testing.baml
+E:\money\money\obj\Debug\testing_bugs.baml
+E:\money\money\obj\Debug\testing_bugs_example.baml
+E:\money\money\obj\Debug\testing_mini_och.baml
+E:\money\money\obj\Debug\testing_mp_1.baml
+E:\money\money\obj\Debug\testing_mp_2.baml
+E:\money\money\obj\Debug\testing_mp_3.baml
+E:\money\money\obj\Debug\testing_mp_4.baml
+E:\money\money\obj\Debug\testing_mp_5.baml
+E:\money\money\obj\Debug\testing_mp_6.baml
+E:\money\money\obj\Debug\testing_och_and_objects.baml
+E:\money\money\obj\Debug\testing_och_preconditions.baml
+E:\money\money\obj\Debug\testing_pak_1.baml
+E:\money\money\obj\Debug\testing_pak_2.baml
+E:\money\money\obj\Debug\testing_pak_3.baml
+E:\money\money\obj\Debug\testing_widgets_card.baml
+E:\money\money\obj\Debug\testing_widgets_data.baml
+E:\money\money\obj\Debug\UserControlhome.baml
+E:\money\money\obj\Debug\UserControl_Data_types.baml
+E:\money\money\obj\Debug\UserControl_ebzdb_example_11.baml
+E:\money\money\obj\Debug\UserControl_ebzdb_example_3.baml
+E:\money\money\obj\Debug\UserControl_ebzdb_example_4.baml
+E:\money\money\obj\Debug\UserControl_ebzdb_example_7.baml
+E:\money\money\obj\Debug\UserControl_ebzdb_schema.baml
+E:\money\money\obj\Debug\UserControl_ebzdb_schema_bank.baml
+E:\money\money\obj\Debug\UserControl_fcszdb_example_16.baml
+E:\money\money\obj\Debug\UserControl_fcszdb_example_4_18.baml
+E:\money\money\obj\Debug\UserControl_fcszdb_example_priz.baml
+E:\money\money\obj\Debug\UserControl_fcszdb_example_timestamp.baml
+E:\money\money\obj\Debug\UserControl_fcszdb_integration_z.baml
+E:\money\money\obj\Debug\UserControl_fcszdb_notif_z.baml
+E:\money\money\obj\Debug\UserControl_fcszdb_pbo_z.baml
+E:\money\money\obj\Debug\UserControl_fcszdb_plan_graph_z.baml
+E:\money\money\obj\Debug\UserControl_fcszdb_rkpo_z.baml
+E:\money\money\obj\Debug\UserControl_graph.baml
+E:\money\money\obj\Debug\UserControl_payroll.baml
+E:\money\money\obj\Debug\UserControl_pgzdbfcs_zakupki_dev.baml
+E:\money\money\obj\Debug\UserControl_pgzdb_schema.baml
+E:\money\money\obj\Debug\UserControl_rpgzdb.baml
+E:\money\money\obj\Debug\UserControl_Training.baml
+E:\money\money\obj\Debug\money.g.resources
+E:\money\money\obj\Debug\money.Properties.Resources.resources
+E:\money\money\obj\Debug\money.csproj.GenerateResource.cache
+E:\money\money\obj\Debug\money.csproj.CoreCompileInputs.cache
+E:\money\money\obj\Debug\money.csproj.CopyComplete
+E:\money\money\obj\Debug\money.exe
+E:\money\money\obj\Debug\money.pdb
+C:\Users\support1\Desktop\money\money\obj\Debug\autotest_och.g.cs
+C:\Users\support1\Desktop\money\money\obj\Debug\autotest_och.baml
+C:\Users\support1\Desktop\money\money\bin\Debug\money.exe.manifest
+C:\Users\support1\Desktop\money\money\bin\Debug\money.application
+C:\Users\support1\Desktop\money\money\obj\Debug\money.exe.manifest
+C:\Users\support1\Desktop\money\money\obj\Debug\money.application
+C:\Users\support1\Desktop\money\money\obj\Debug\money.csprojAssemblyReference.cache

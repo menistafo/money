@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="money.exe" version="1.0.0.0" publicKeyToken="c56acbb677936283" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="money" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="money.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Параметры манифеста UAC
+          Если нужно изменить уровень контроля учетных записей Windows, замените 
+          узел requestedExecutionLevel одним из следующих значений.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        Если нужно использовать виртуализацию файлов и реестра для обратной
+             совместимости, удалите узел requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignColors.dll" size="300032">
+      <assemblyIdentity name="MaterialDesignColors" version="1.2.7.1979" publicKeyToken="DF2A72020BD7962A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>d/pQnWa7tgPAOoEJwstdUnpwQC/lepx9LuP77yK5xIY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MaterialDesignThemes.Wpf.dll" size="7727616">
+      <assemblyIdentity name="MaterialDesignThemes.Wpf" version="3.2.0.1979" publicKeyToken="DF2A72020BD7962A" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>feGKj5Rze49jAmfq40yatU2lTC2zNU2SA6lR4Lys7wg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="money.exe" size="5022120">
+      <assemblyIdentity name="money" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rtSWZoAfSNgJcYtAH3N/mrm5ib1tugVGAm0oyAzRrLI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="money.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AD\support1" issuerKeyHash="acb23679a3f67a5701b3b3dc674a6267fc00963c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XCMsjLavaLZYietzX1tUlUF4KzQnF8LCz/CAQJzwhuQ=</DigestValue></Reference></SignedInfo><SignatureValue>ZzbouzWXq2DBJspz0y7Vnw2nisAZ0mZpUNk22deKSKTUSGtxpeQmvWZtO3Q5Kw/D+yJ8VkbQ9j3My1tBqG3vRXmDiKUq8QKcFt9yv8jlxSK5oiMLVS2DC4IU6VWIhWNdBCwxWrefFI1gykIG87Zqo0I974uODXCKbuUd3MYK/zk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xhV6jdK3ePoy+gUMIM4521SwNlE0eIIiGEfFrDaWlYg2w5NDTxRiFGtIJGaE2+47ltTD5kxMNaLR1eaOSjGoBQ/7k9is79sypegK8LnNHb4WPRxfh6Sl/knWYXwiRiEsIg3RhaWMhYHoJEBJXx5VsMA9vYAuj+KO4d8kxASpnrE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e486f09c4080f0cfc2c21727342b784195545b5f73eb8958b668afb68c2c235c" Description="" Url=""><as:assemblyIdentity name="money.exe" version="1.0.0.0" publicKeyToken="c56acbb677936283" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AD\support1</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hFevaSYSmIFeKZi56BNh+NsvMQBX0ZQtsKkw+CYBxPg=</DigestValue></Reference></SignedInfo><SignatureValue>JmTNBJj0TbKIN30Yt5UdZLPwJY0hTnuP5/fPBm94ivt3P24G9uNbkBbA+d94JQTrM28wLZoKjNFBpW9srIOcM0Du8hsru3YV7JBB8Vp/MieHnSjVkWQJDZxirGgiKK+yeM6XNWVG9PPIIS5Sa3wSMQwXdMnR+SOz8UTWBX92CPI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xhV6jdK3ePoy+gUMIM4521SwNlE0eIIiGEfFrDaWlYg2w5NDTxRiFGtIJGaE2+47ltTD5kxMNaLR1eaOSjGoBQ/7k9is79sypegK8LnNHb4WPRxfh6Sl/knWYXwiRiEsIg3RhaWMhYHoJEBJXx5VsMA9vYAuj+KO4d8kxASpnrE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBxTCCAS6gAwIBAgIQHR3el3tL04JCz15RCGZBHzANBgkqhkiG9w0BAQsFADAhMR8wHQYDVQQDHhYAQQBEAFwAcwB1AHAAcABvAHIAdAAxMB4XDTIxMDIwNDEzMTkyN1oXDTIyMDIwNDE5MTkyN1owITEfMB0GA1UEAx4WAEEARABcAHMAdQBwAHAAbwByAHQAMTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxhV6jdK3ePoy+gUMIM4521SwNlE0eIIiGEfFrDaWlYg2w5NDTxRiFGtIJGaE2+47ltTD5kxMNaLR1eaOSjGoBQ/7k9is79sypegK8LnNHb4WPRxfh6Sl/knWYXwiRiEsIg3RhaWMhYHoJEBJXx5VsMA9vYAuj+KO4d8kxASpnrECAwEAATANBgkqhkiG9w0BAQsFAAOBgQB3RPeqahEUhg1YNb0ZFWcH2uV9+TMr3L30fVon2/YbBfHKfizK6zsY8NMxOZxT7EUmYo2jPzS3aDXITguw7XTC7GoxzLYoMQLlJ8pbM43QpKH/AuME4R3MqSENH0Jha9W9za5i4awcL3vFdZA7POm5MMw9JMg0cjeo3+EP0lB61A==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
