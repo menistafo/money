@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xrml="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <assemblyIdentity name="money.application" version="1.0.0.15" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <assemblyIdentity name="money.application" version="1.0.0.16" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <description asmv2:publisher="menistafo" asmv2:product="money" asmv2:supportUrl="https://github.com/menistafo/money/tree/master/money" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" minimumRequiredVersion="1.0.0.8" co.v1:createDesktopShortcut="true">
     <subscription>
@@ -8,20 +8,20 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://github.com/menistafo/money/blob/master/money/bin/Debug/app.publish/money.application" />
+    <deploymentProvider codebase="https://github.com/menistafo/money/blob/master/money/bin/Debug/money.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
     <dependentAssembly dependencyType="install" codebase="money.exe.manifest" size="5021">
-      <assemblyIdentity name="money.exe" version="1.0.0.15" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+      <assemblyIdentity name="money.exe" version="1.0.0.16" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>n6eBVPLg2IArynL6I3efkpB8+IVWzrS7nu5QBDRNkMw=</dsig:DigestValue>
+        <dsig:DigestValue>rU3Mnkh5E/s9W1wuFNV69Ry/hu2qFPYfrogyMaLnIcg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

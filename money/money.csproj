@@ -27,14 +27,14 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <UpdateUrl>https://github.com/menistafo/money/blob/master/money/bin/Debug/app.publish/</UpdateUrl>
+    <UpdateUrl>https://github.com/menistafo/money/blob/master/money/bin/Debug/</UpdateUrl>
     <SupportUrl>https://github.com/menistafo/money/tree/master/money</SupportUrl>
     <ProductName>money</ProductName>
     <PublisherName>menistafo</PublisherName>
     <MinimumRequiredVersion>1.0.0.8</MinimumRequiredVersion>
     <WebPage>publish.htm</WebPage>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>16</ApplicationRevision>
+    <ApplicationRevision>17</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
