@@ -20,7 +20,7 @@
                             <TextBlock>1-й грейд</TextBlock>
                             <TextBlock>2-й грейд</TextBlock>
                             <TextBlock>3-й грейд</TextBlock>
-                            <TextBlock>---институтка</TextBlock>
+                            <TextBlock>---*институтка</TextBlock>
                             </ComboBox>
                         <TextBlock Text="" FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Center"/>
                         <Grid>
