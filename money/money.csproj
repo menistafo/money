@@ -60,10 +60,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>B789C2CE6DD702BDA207089010A755AF8D8B7986</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>506D04DEA6C2CEF016FA7E633001FB383982D720</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>money_1_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>money_2_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -831,6 +831,7 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="money_1_TemporaryKey.pfx" />
+    <None Include="money_2_TemporaryKey.pfx" />
     <None Include="money_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
