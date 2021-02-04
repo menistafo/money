@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="money.lko_28"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:money"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             Height="auto" Width="auto">
+    <Grid Background="#FFEEEEEE" x:Name="lko28">
+        <materialDesign:DialogHost BorderBrush="{DynamicResource MaterialDesignDivider}">
+            <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                    <StackPanel>
+                        <TextBlock Text="" FontFamily="Cooper Black" Foreground="#FFC00000"/>
+                        <StackPanel Margin="10">
+                            <Grid Background="#FFEEEEEE">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Размещение уведомлений по списку в CSV файле" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 0 0 10" FontFamily="Times New Roman" FontSize="20"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="Когда присылают СПЗ/ТОФК файлом:"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="1" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="Скачиваем файл. В чатике чаще всего присылают его в формате .txt."
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="2" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <Image Source="screenshots/tofk.png" Grid.Column="1" Grid.Row="3" Width="auto" Height="auto" VerticalAlignment="Top" />
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="Открываем файл в блокноте, смотрим, всё ли там красиво (в одну строку и через запятую), нажимаем «Сохранить как…» и при сохранении в имени файла руками прописываем хвостик .csv вместо .txt. Сохраняем. Всё, можно крепить в ЛКО."
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="4" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <Image Source="screenshots/tofk_name.png" Grid.Column="1" Grid.Row="5" Width="auto" Height="auto" VerticalAlignment="Top" />
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="Когда присылают СПЗ/ТОФК столбцом прямо в чате:"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="6" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="Когда СПЗ немного, то их присылают не файлом, а несколькими строками в чате. В таком случае закидываем их все в блокнот, после каждого проставляем запятую, преобразуем в одну строку (если их всё-таки много, то сделать это можно через Ctrl+J в Notepad++) и так же сохраняем в формате .csv. Готово!"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="7" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <Button Grid.Column="1" Grid.Row="14" Width="100" HorizontalAlignment="Left" Content="Назад" Name="back" Click="back_Click"  Margin="0 10 0 0"/>
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </materialDesign:TransitioningContent>
+        </materialDesign:DialogHost>
+    </Grid>
+</UserControl>

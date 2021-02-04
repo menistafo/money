@@ -1,0 +1,101 @@
+﻿<UserControl x:Class="money.lko_15"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:money"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             Height="auto" Width="auto">
+    <Grid Background="#FFEEEEEE" x:Name="lko15">
+        <materialDesign:DialogHost BorderBrush="{DynamicResource MaterialDesignDivider}">
+            <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                    <StackPanel>
+                        <TextBlock Text="" FontFamily="Cooper Black" Foreground="#FFC00000"/>
+                        <StackPanel Margin="10">
+                            <Grid Background="#FFEEEEEE">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Новость с закрытием" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 0 0 10" FontFamily="Times New Roman" FontSize="20"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="В конфлюенсе может быть создана новость(методологами) с текстом начала проблемы и текстом ее завершения. Такие новости создаются, как правило, при публикации новости об ошибках:" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="1" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="открывающая - новость о начале неработоспособности" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="2" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="закрывающая - с текстом закрытия, когда ошибка будет устранена (но без времени закрытия, т.к. на момент создания она не известна)." 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="3" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="В таком случае размещение происходит по следующему алгоритму:" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="4" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="1. Методолог готовит открывающую и закрывающую новость, Открывающую размещает в раздел  Новости, уведомления, посты в instagram - доступно ФК" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="5" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="2. При создании открывающей новости из п.1 в конфлюенсе в проекте новости в разделе Закрывающая новость указывает ссылку на закрывающую новость." 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="6" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="3. ДС по запросу размещает открывающую новость" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="7" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="4. В тот момент, когда проблема будет исправлена и исправлено подтверждено, в чате [1я|2я ЛИНИИ]. Уведомления|Новости|Контент будет направлен запрос размещения закрывающей новости. В чате указывают ссылку на открывающую новость(в ней ДС находит закрывающую и дату и время исправления ошибки)." 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="8" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="5. ДС размещает закрывающую новость с указанным в п.4 датой и временем, и текстом закрывающей новости." 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="9" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="6. После публикации закрывающей новости, перевести Открывающую новость в БЗ в статус Архив." 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="10" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+
+                                <Button Grid.Column="1" Grid.Row="14" Width="100" HorizontalAlignment="Right" Content="Далее" Name="further" Click="further_Click"  Margin="0 10 0 0"/>
+                                <Button Grid.Column="1" Grid.Row="14" Width="100" HorizontalAlignment="Left" Content="Назад" Name="back" Click="back_Click"  Margin="0 10 0 0"/>
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </materialDesign:TransitioningContent>
+        </materialDesign:DialogHost>
+    </Grid>
+</UserControl>

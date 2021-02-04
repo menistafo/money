@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="money.UserControl_Data_types"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:money"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+             xmlns:col="clr-namespace:System.Collections;assembly=mscorlib" xmlns:local1="clr-namespace:System;assembly=mscorlib"
+             Height="auto" Width="auto">
+    <Grid Background="#FFEEEEEE">
+        <materialDesign:DialogHost BorderBrush="{DynamicResource MaterialDesignDivider}">
+            <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                    <StackPanel>
+                        <TextBlock Text="" FontFamily="Cooper Black" Foreground="#FFC00000"/>
+                        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                            <Grid >
+                                <DataGrid Background="#FFEEEEEE" x:Name="typesGrid" AutoGenerateColumns="True" CanUserAddRows="False" CanUserDeleteRows="False" IsReadOnly="True" FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Center" VerticalAlignment="Center">
+                                    <DataGrid.Items>
+                                        <local:Type types="Char (размер)" typeSizes="Максимальный размер 2000 байт." Description="Где размер — количество символов фиксированной длины. Если сохраняемое значение короче, то дополняется пробелами; если длиннее, то выдается ошибка." />
+                                        <local:Type types="Varchar2 (размер)" typeSizes="Максимальный размер 4000 байт. Максимальный размер в PLSQL 32KB." Description="Где размер – количество сохраняемых символов переменной длины."/>
+                                        <local:Type types="Number (точность, масштаб)" typeSizes="Точность может быть в диапазоне от 1 до 38. Масштаб может быть в диапазоне от -84 до 127." Description="Например, number (14,5) представляет собой число, которое имеет 9 знаков до запятой и 5 знаков после запятой."/>
+                                        <local:Type types="date" typeSizes="date может принимать значения от 1 января 4712 года до н.э. до 31 декабря 9999 года нашей эры." Description=""/>
+                                        <local:Type types="blob" typeSizes="Хранит до 4 ГБ двоичных данных." Description="Хранит неструктурированные двоичные большие объекты."/>
+                                        <local:Type types="TIMESTAMP" typeSizes="специальный тип данных в oracle расширяющий возможности типа данных date" Description="Представлен в трех вариантах: timestamp Год, месяц, часы , минуты , секунды timestamp with local time zone то же что и предыдущий тип данных, но дополнительно включает еще и следующие значения временных зон time_zone_hour и time_zone_minute или же time_zone_region timestamp with local time zone тип данных со значением часового пояса"/>
+                                    </DataGrid.Items>
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Header="Типы данных" Binding="{Binding Path=types}" Width="auto">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style TargetType="TextBlock">
+                                                    <Setter Property="TextWrapping" Value="Wrap"></Setter>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Размер" Binding="{Binding Path=typeSizes}" Width="300">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style TargetType="TextBlock">
+                                                    <Setter Property="TextWrapping" Value="Wrap"></Setter>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                        <DataGridTextColumn Header="Описание" Binding="{Binding Path=Description}" Width="500">
+                                            <DataGridTextColumn.ElementStyle>
+                                                <Style TargetType="TextBlock">
+                                                    <Setter Property="TextWrapping" Value="Wrap"></Setter>
+                                                </Style>
+                                            </DataGridTextColumn.ElementStyle>
+                                        </DataGridTextColumn>
+                                    </DataGrid.Columns>
+
+                                </DataGrid>
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </materialDesign:TransitioningContent>
+        </materialDesign:DialogHost>
+    </Grid>
+</UserControl>

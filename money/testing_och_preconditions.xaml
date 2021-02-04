@@ -1,0 +1,40 @@
+﻿<UserControl x:Class="money.testing_och_preconditions"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:money"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             Height="auto" Width="auto">
+    <Grid Background="#FFEEEEEE" x:Name="preconditions">
+        <materialDesign:DialogHost BorderBrush="{DynamicResource MaterialDesignDivider}">
+            <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                    <StackPanel>
+                        <TextBlock Text="" FontFamily="Cooper Black" Foreground="#FFC00000"/>
+                        <StackPanel Margin="10">
+                            <Grid Background="#FFEEEEEE">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Предусловия для начала тестирования ОЧ" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 0 0 10" FontFamily="Times New Roman" FontSize="20"/>
+                                <TextBlock Text="В ночь был выпуск хот-фикса (Хот-фикс не обязательно должен касаться ОЧ)." Grid.Column="1" Grid.Row="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 0 0 10" FontFamily="Times New Roman" FontSize="16"/>
+                                <TextBlock Text="Онланта оповестила на адрес эл. почты contentooc@zakupki.gov.ru о выходе версии." Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 0 0 10" FontFamily="Times New Roman" FontSize="16"/>
+                                <Button Grid.Column="1" Grid.Row="3" Width="100" HorizontalAlignment="Right" Content="Далее" Name="further" Click="further_Click" Margin="0 10 0 0"/>
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </materialDesign:TransitioningContent>
+        </materialDesign:DialogHost>
+    </Grid>
+</UserControl>

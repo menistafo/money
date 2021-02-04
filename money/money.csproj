@@ -1,0 +1,1001 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{14B451A6-4361-4685-96A6-5ABD83C375BF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>money</RootNamespace>
+    <AssemblyName>money</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/money/</UpdateUrl>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3FC96A98A99FF16163E1526BE5F6D85AAD836953</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>money_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialDesignColors, Version=1.2.7.1979, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignColors.1.2.7\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=3.2.0.1979, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MaterialDesignThemes.3.2.0\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="autotest_och.xaml.cs">
+      <DependentUpon>autotest_och.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="bugs_example_2.xaml.cs">
+      <DependentUpon>bugs_example_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Database.xaml.cs">
+      <DependentUpon>Database.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="dt_types.cs" />
+    <Compile Include="Graph.xaml.cs">
+      <DependentUpon>Graph.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds.xaml.cs">
+      <DependentUpon>info_ds.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_1.xaml.cs">
+      <DependentUpon>info_ds_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_10.xaml.cs">
+      <DependentUpon>info_ds_10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_11.xaml.cs">
+      <DependentUpon>info_ds_11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_12.xaml.cs">
+      <DependentUpon>info_ds_12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_13.xaml.cs">
+      <DependentUpon>info_ds_13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_14.xaml.cs">
+      <DependentUpon>info_ds_14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_15.xaml.cs">
+      <DependentUpon>info_ds_15.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_16.xaml.cs">
+      <DependentUpon>info_ds_16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_17.xaml.cs">
+      <DependentUpon>info_ds_17.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_18.xaml.cs">
+      <DependentUpon>info_ds_18.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_19.xaml.cs">
+      <DependentUpon>info_ds_19.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_2.xaml.cs">
+      <DependentUpon>info_ds_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_20.xaml.cs">
+      <DependentUpon>info_ds_20.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_21.xaml.cs">
+      <DependentUpon>info_ds_21.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_22.xaml.cs">
+      <DependentUpon>info_ds_22.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_3.xaml.cs">
+      <DependentUpon>info_ds_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_4.xaml.cs">
+      <DependentUpon>info_ds_4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_5.xaml.cs">
+      <DependentUpon>info_ds_5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_6.xaml.cs">
+      <DependentUpon>info_ds_6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_7.xaml.cs">
+      <DependentUpon>info_ds_7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_8.xaml.cs">
+      <DependentUpon>info_ds_8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="info_ds_9.xaml.cs">
+      <DependentUpon>info_ds_9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko.xaml.cs">
+      <DependentUpon>lko.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_1.xaml.cs">
+      <DependentUpon>lko_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_10.xaml.cs">
+      <DependentUpon>lko_10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_11.xaml.cs">
+      <DependentUpon>lko_11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_12.xaml.cs">
+      <DependentUpon>lko_12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_13.xaml.cs">
+      <DependentUpon>lko_13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_14.xaml.cs">
+      <DependentUpon>lko_14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_15.xaml.cs">
+      <DependentUpon>lko_15.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_16.xaml.cs">
+      <DependentUpon>lko_16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_17.xaml.cs">
+      <DependentUpon>lko_17.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_18.xaml.cs">
+      <DependentUpon>lko_18.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_19.xaml.cs">
+      <DependentUpon>lko_19.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_2.xaml.cs">
+      <DependentUpon>lko_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_20.xaml.cs">
+      <DependentUpon>lko_20.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_21.xaml.cs">
+      <DependentUpon>lko_21.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_22.xaml.cs">
+      <DependentUpon>lko_22.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_23.xaml.cs">
+      <DependentUpon>lko_23.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_24.xaml.cs">
+      <DependentUpon>lko_24.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_25.xaml.cs">
+      <DependentUpon>lko_25.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_26.xaml.cs">
+      <DependentUpon>lko_26.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_27.xaml.cs">
+      <DependentUpon>lko_27.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_28.xaml.cs">
+      <DependentUpon>lko_28.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_3.xaml.cs">
+      <DependentUpon>lko_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_4.xaml.cs">
+      <DependentUpon>lko_4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_5.xaml.cs">
+      <DependentUpon>lko_5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_6.xaml.cs">
+      <DependentUpon>lko_6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_7.xaml.cs">
+      <DependentUpon>lko_7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_8.xaml.cs">
+      <DependentUpon>lko_8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="lko_9.xaml.cs">
+      <DependentUpon>lko_9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="pak_you _need_to_know.xaml.cs">
+      <DependentUpon>pak_you _need_to_know.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sert_akimov.xaml.cs">
+      <DependentUpon>sert_akimov.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sert_gorbunov.xaml.cs">
+      <DependentUpon>sert_gorbunov.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="sert_savina.xaml.cs">
+      <DependentUpon>sert_savina.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Testing.xaml.cs">
+      <DependentUpon>Testing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_bugs.xaml.cs">
+      <DependentUpon>testing_bugs.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_bugs_example.xaml.cs">
+      <DependentUpon>testing_bugs_example.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_mini_och.xaml.cs">
+      <DependentUpon>testing_mini_och.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_mp_1.xaml.cs">
+      <DependentUpon>testing_mp_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_mp_2.xaml.cs">
+      <DependentUpon>testing_mp_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_mp_3.xaml.cs">
+      <DependentUpon>testing_mp_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_mp_4.xaml.cs">
+      <DependentUpon>testing_mp_4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_mp_5.xaml.cs">
+      <DependentUpon>testing_mp_5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_mp_6.xaml.cs">
+      <DependentUpon>testing_mp_6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_och_and_objects.xaml.cs">
+      <DependentUpon>testing_och_and_objects.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_och_preconditions.xaml.cs">
+      <DependentUpon>testing_och_preconditions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_pak_1.xaml.cs">
+      <DependentUpon>testing_pak_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_pak_2.xaml.cs">
+      <DependentUpon>testing_pak_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_pak_3.xaml.cs">
+      <DependentUpon>testing_pak_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_widgets_card.xaml.cs">
+      <DependentUpon>testing_widgets_card.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testing_widgets_data.xaml.cs">
+      <DependentUpon>testing_widgets_data.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlhome.xaml.cs">
+      <DependentUpon>UserControlhome.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_Data_types.xaml.cs">
+      <DependentUpon>UserControl_Data_types.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_ebzdb_example_11.xaml.cs">
+      <DependentUpon>UserControl_ebzdb_example_11.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_ebzdb_example_3.xaml.cs">
+      <DependentUpon>UserControl_ebzdb_example_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_ebzdb_example_4.xaml.cs">
+      <DependentUpon>UserControl_ebzdb_example_4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_ebzdb_example_7.xaml.cs">
+      <DependentUpon>UserControl_ebzdb_example_7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_ebzdb_schema.xaml.cs">
+      <DependentUpon>UserControl_ebzdb_schema.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_ebzdb_schema_bank.xaml.cs">
+      <DependentUpon>UserControl_ebzdb_schema_bank.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_fcszdb_example_16.xaml.cs">
+      <DependentUpon>UserControl_fcszdb_example_16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_fcszdb_example_4_18.xaml.cs">
+      <DependentUpon>UserControl_fcszdb_example_4_18.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_fcszdb_example_priz.xaml.cs">
+      <DependentUpon>UserControl_fcszdb_example_priz.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_fcszdb_example_timestamp.xaml.cs">
+      <DependentUpon>UserControl_fcszdb_example_timestamp.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_fcszdb_integration_z.xaml.cs">
+      <DependentUpon>UserControl_fcszdb_integration_z.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_fcszdb_notif_z.xaml.cs">
+      <DependentUpon>UserControl_fcszdb_notif_z.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_fcszdb_pbo_z.xaml.cs">
+      <DependentUpon>UserControl_fcszdb_pbo_z.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_fcszdb_plan_graph_z.xaml.cs">
+      <DependentUpon>UserControl_fcszdb_plan_graph_z.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_fcszdb_rkpo_z.xaml.cs">
+      <DependentUpon>UserControl_fcszdb_rkpo_z.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_graph.xaml.cs">
+      <DependentUpon>UserControl_graph.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_payroll.xaml.cs">
+      <DependentUpon>UserControl_payroll.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_pgzdbfcs_zakupki_dev.xaml.cs">
+      <DependentUpon>UserControl_pgzdbfcs_zakupki_dev.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_pgzdb_schema.xaml.cs">
+      <DependentUpon>UserControl_pgzdb_schema.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_rpgzdb.xaml.cs">
+      <DependentUpon>UserControl_rpgzdb.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl_Training.xaml.cs">
+      <DependentUpon>UserControl_Training.xaml</DependentUpon>
+    </Compile>
+    <Page Include="autotest_och.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="bugs_example_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Database.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Graph.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_14.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_15.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_17.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_18.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_19.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_20.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_21.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_22.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="info_ds_9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_14.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_15.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_17.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_18.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_19.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_20.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_21.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_22.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_23.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_24.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_25.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_26.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_27.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_28.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="lko_9.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="pak_you _need_to_know.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sert_akimov.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sert_gorbunov.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="sert_savina.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Testing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_bugs.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_bugs_example.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_mini_och.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_mp_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_mp_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_mp_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_mp_4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_mp_5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_mp_6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_och_and_objects.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_och_preconditions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_pak_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_pak_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_pak_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_widgets_card.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="testing_widgets_data.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlhome.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_Data_types.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_ebzdb_example_11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_ebzdb_example_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_ebzdb_example_4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_ebzdb_example_7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_ebzdb_schema.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_ebzdb_schema_bank.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_fcszdb_example_16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_fcszdb_example_4_18.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_fcszdb_example_priz.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_fcszdb_example_timestamp.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_fcszdb_integration_z.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_fcszdb_notif_z.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_fcszdb_pbo_z.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_fcszdb_plan_graph_z.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_fcszdb_rkpo_z.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_graph.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_payroll.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_pgzdbfcs_zakupki_dev.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_pgzdb_schema.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_rpgzdb.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl_Training.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="money_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\baby.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\Yoda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\blob1.png" />
+    <Resource Include="screenshots\blob2.png" />
+    <Resource Include="screenshots\blob3.png" />
+    <Resource Include="screenshots\blob4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\ebzdb_BANK_GUARANTEE_Z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\ebzdb_rgk_z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\pgzdbfcs_zakupki_dev.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\rpgzdb_rpgz_z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\fcszdb_INTEGRATION_Z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\fcszdb_notif_z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\fcszdb_pbo_z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\fcszdb_plan_graph_z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\fcszdb_RKPO_Z.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\pgzdb_zakupki_dev.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\ebz_exm_scr11_p1.png" />
+    <Resource Include="screenshots\ebz_exm_scr11_p2.png" />
+    <Resource Include="screenshots\ebz_exm_scr11_p3.png" />
+    <Resource Include="screenshots\ebz_exm_scr4_p1.png" />
+    <Resource Include="screenshots\ebz_exm_scr4_p2.png" />
+    <Resource Include="screenshots\ebz_exm_scr4_p3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\ebz_exm_scr3_p1.png" />
+    <Resource Include="screenshots\ebz_exm_scr3_p2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\ebz_exm_scr7_p1.png" />
+    <Resource Include="screenshots\ebz_exm_scr7_p2.png" />
+    <Resource Include="screenshots\ebz_exm_scr7_p3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\fcs_exm_scr_16_p1.png" />
+    <Resource Include="screenshots\fcs_exm_scr_16_p2.png" />
+    <Resource Include="screenshots\fcs_exm_scr_16_p3.png" />
+    <Resource Include="screenshots\fcs_exm_scr_16_p4.png" />
+    <Resource Include="screenshots\fcs_exm_scr_16_p5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\fcs_exm_scr_18_p1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\fcs_exm_scr_4_p1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\fcs_exm_scr_tmstmp_p1.png" />
+    <Resource Include="screenshots\fcs_exm_scr_tmstmp_p2.png" />
+    <Resource Include="screenshots\fcs_exm_scr_tmstmp_p3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\fcs_exm_scr_priz_p1.png" />
+    <Resource Include="screenshots\fcs_exm_scr_priz_p2.png" />
+    <Resource Include="screenshots\fcs_exm_scr_priz_p3.png" />
+    <Resource Include="screenshots\fcs_exm_scr_priz_p4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\bugs_example_1.png" />
+    <Resource Include="screenshots\bugs_example_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\widgets_data.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\widgets_card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\mp_tasks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\pak_login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\akimov.png" />
+    <Resource Include="screenshots\gorbunov.png" />
+    <Resource Include="screenshots\savina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\rpgz_error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\scheme.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\lko_news.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\atff_mail.png" />
+    <Resource Include="screenshots\counterparties.png" />
+    <Resource Include="screenshots\creating_a_letter.png" />
+    <Resource Include="screenshots\creating_a_letter_2.png" />
+    <Resource Include="screenshots\creating_a_letter_3.png" />
+    <Resource Include="screenshots\example_document.png" />
+    <Resource Include="screenshots\example_news.png" />
+    <Resource Include="screenshots\example_news_in_confluence.png" />
+    <Resource Include="screenshots\example_notification.png" />
+    <Resource Include="screenshots\lko_docs.png" />
+    <Resource Include="screenshots\lko_notifications.png" />
+    <Resource Include="screenshots\lko_polls.png" />
+    <Resource Include="screenshots\sample_survey.png" />
+    <Resource Include="screenshots\tofk.png" />
+    <Resource Include="screenshots\tofk_name.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screenshots\13Слайд.png" />
+    <Resource Include="screenshots\14Слайд.png" />
+    <Resource Include="screenshots\15слайд.png" />
+    <Resource Include="screenshots\Слайд 21.png" />
+    <Resource Include="screenshots\Слайд16.png" />
+    <Resource Include="screenshots\Слайд17.png" />
+    <Resource Include="screenshots\Слайд18.png" />
+    <Resource Include="screenshots\Слайд19.png" />
+    <Resource Include="screenshots\Слайд20.png" />
+    <Resource Include="screenshots\Слайд22_1.png" />
+    <Resource Include="screenshots\Слайд22_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\MaterialDesignThemes.3.2.0\build\MaterialDesignThemes.targets" Condition="Exists('..\packages\MaterialDesignThemes.3.2.0\build\MaterialDesignThemes.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MaterialDesignThemes.3.2.0\build\MaterialDesignThemes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MaterialDesignThemes.3.2.0\build\MaterialDesignThemes.targets'))" />
+  </Target>
+</Project>

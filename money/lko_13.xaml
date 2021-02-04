@@ -1,0 +1,111 @@
+﻿<UserControl x:Class="money.lko_13"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:money"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             Height="auto" Width="auto">
+    <Grid Background="#FFEEEEEE" x:Name="lko13">
+        <materialDesign:DialogHost BorderBrush="{DynamicResource MaterialDesignDivider}">
+            <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                    <StackPanel>
+                        <TextBlock Text="" FontFamily="Cooper Black" Foreground="#FFC00000"/>
+                        <StackPanel Margin="10">
+                            <Grid Background="#FFEEEEEE">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Публикация новостей" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 0 0 10" FontFamily="Times New Roman" FontSize="20"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="Новость содержит обязательные для заполнения поля/пункты:" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="1" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="1.	Заголовок новости (90 знаков с пробелами)" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="2" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="2.	Анонс (150 знаков с пробелами)" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="3" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="3.	Чекбокс «Отображать новость», значения:" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="4" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="3.1 На официальном сайте ЕИС (Указывается по умолчанию, не указывается, когда новость касается только мобильного приложения)" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="5" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="3.2 В мобильном приложении ЕИС, Указывается  в случаях:" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="6" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="3.2.1. Когда новость с признаком Главная" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="7" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="3.2.2. Если они касаются поставщиков (Если есть сомнения, уточняется у методолога, который запросил размещение)." 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="8" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="P.S. Когда новость о РР, то ставить признак МП не нужно!" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="9" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="4. Текст новости (Текстовое поле, вместимость более 2000 знаков)" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="10" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="5. Категория (выбирается из доступного списка категорий в соответствии с контекстом новости)" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="11" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="6. Принадлежность к закону (Указывается в соответствии с контекстом новости, если  новость затрагивает 223ФЗ и 44ФЗ указывается «Общая»)" 
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="12" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+
+                                <Button Grid.Column="1" Grid.Row="14" Width="100" HorizontalAlignment="Left" Content="Назад" Name="back" Click="back_Click"  Margin="0 10 0 0"/>
+                                <Button Grid.Column="1" Grid.Row="14" Width="100" HorizontalAlignment="Right" Content="Далее" Name="further" Click="further_Click"  Margin="0 10 0 0"/>
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </materialDesign:TransitioningContent>
+        </materialDesign:DialogHost>
+    </Grid>
+</UserControl>

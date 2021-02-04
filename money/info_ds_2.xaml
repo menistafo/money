@@ -1,0 +1,105 @@
+﻿<UserControl x:Class="money.info_ds_2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:money"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             Height="auto" Width="auto">
+    <Grid Background="#FFEEEEEE" x:Name="info_ds2">
+        <materialDesign:DialogHost BorderBrush="{DynamicResource MaterialDesignDivider}">
+            <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
+                <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+                    <StackPanel>
+                        <TextBlock Text="" FontFamily="Cooper Black" Foreground="#FFC00000"/>
+                        <StackPanel Margin="10">
+                            <Grid Background="#FFEEEEEE">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                    <RowDefinition></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                    <ColumnDefinition></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Основные функции выполняемые сотрудниками" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 0 0 10" FontFamily="Times New Roman" FontSize="20"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="Инцидентная работа"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="1" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Center"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="Группа занимается обработкой обращений, где в качестве обходного решения применяется однотипный скрипт"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="2" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="У ДС нет специализации  на какой то определённый реестр, сотрудники обрабатывают обращение по всем основным направлениям:"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="3" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="1) 44-ФЗ"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="4" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="2) 223-ФЗ"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="5" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="3) ЕРУЗ"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="6" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="4) АСФК"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="7" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="5) ЕИС ОЧ"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="8" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="6) Интеграция 44-ФЗ"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="9" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="Количество таких скриптов варьируется, в промежутках между выходами новых версий и особое внимание уделяется выходу глобальной версии раз в квартал"
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="10" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <TextBlock TextWrapping="Wrap" 
+                                           Text="В среднем количество активных кейсов, по которым приходит основная часть обращений, составляет приблизительно 25. В среднем поступает 193 обращения в неделю."
+                                           MaxWidth="800" Grid.Column="1" 
+                                           Grid.Row="11" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
+                                <Button Grid.Column="1" Grid.Row="15" Width="100" HorizontalAlignment="Right" Content="Далее" Name="further" Click="further_Click"  Margin="0 10 0 0"/>
+                            </Grid>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </materialDesign:TransitioningContent>
+        </materialDesign:DialogHost>
+    </Grid>
+</UserControl>
