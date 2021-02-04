@@ -27,14 +27,14 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <UpdateUrl>https://github.com/menistafo/money/blob/master/money/bin/Debug/</UpdateUrl>
+    <UpdateUrl>https://drive.google.com/drive/u/0/folders/1fgKFXEaQXIt8UJz9Iv-A3zZrjqy-C_oq/</UpdateUrl>
     <SupportUrl>https://github.com/menistafo/money/tree/master/money</SupportUrl>
     <ProductName>money</ProductName>
     <PublisherName>menistafo</PublisherName>
     <MinimumRequiredVersion>1.0.0.8</MinimumRequiredVersion>
     <WebPage>publish.htm</WebPage>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>17</ApplicationRevision>
+    <ApplicationRevision>20</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
