@@ -27,7 +27,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://github.com/menistafo/money/tree/master/money/bin/Debug/</InstallUrl>
+    <InstallUrl>https://github.com/menistafo/money/tree/master/money/bin/Debug/app.publish/</InstallUrl>
     <UpdateUrl>https://github.com/menistafo/money/remotes/origin/master/</UpdateUrl>
     <SupportUrl>https://github.com/menistafo/money/tree/master/money</SupportUrl>
     <ProductName>money</ProductName>
@@ -35,7 +35,7 @@
     <MinimumRequiredVersion>1.0.0.8</MinimumRequiredVersion>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>12</ApplicationRevision>
+    <ApplicationRevision>13</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -62,16 +62,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>506D04DEA6C2CEF016FA7E633001FB383982D720</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>B789C2CE6DD702BDA207089010A755AF8D8B7986</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>money_2_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>money_1_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>false</SignManifests>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MaterialDesignColors, Version=1.2.7.1979, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
