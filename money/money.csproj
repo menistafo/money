@@ -27,13 +27,15 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://github.com/menistafo/money/tree/master/money/</InstallUrl>
+    <InstallUrl>https://github.com/menistafo/money/tree/master/money/bin/Debug/app.publish/</InstallUrl>
     <UpdateUrl>https://github.com/menistafo/money/remotes/origin/master/</UpdateUrl>
     <SupportUrl>https://github.com/menistafo/money/tree/master/money</SupportUrl>
     <ProductName>money</ProductName>
     <PublisherName>menistafo</PublisherName>
     <MinimumRequiredVersion>1.0.0.8</MinimumRequiredVersion>
-    <ApplicationRevision>9</ApplicationRevision>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>11</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>

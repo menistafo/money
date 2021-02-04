@@ -775,4 +775,3 @@ C:\Users\support1\Desktop\money\money\bin\Debug\money.exe.manifest
 C:\Users\support1\Desktop\money\money\bin\Debug\money.application
 C:\Users\support1\Desktop\money\money\obj\Debug\money.exe.manifest
 C:\Users\support1\Desktop\money\money\obj\Debug\money.application
-C:\Users\support1\Desktop\money\money\obj\Debug\money.csprojAssemblyReference.cache
