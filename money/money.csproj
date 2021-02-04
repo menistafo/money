@@ -16,10 +16,10 @@
     <Deterministic>true</Deterministic>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>C:\Users\support1\Desktop\ntcnjdsqntcn\</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Web</InstallFrom>
+    <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
@@ -27,15 +27,14 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>true</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://github.com/menistafo/money/tree/master/money/bin/Debug/app.publish/</InstallUrl>
-    <UpdateUrl>https://github.com/menistafo/money/remotes/origin/master/</UpdateUrl>
+    <UpdateUrl>https://github.com/menistafo/money/blob/master/money/bin/Debug/app.publish/money.application/</UpdateUrl>
     <SupportUrl>https://github.com/menistafo/money/tree/master/money</SupportUrl>
     <ProductName>money</ProductName>
     <PublisherName>menistafo</PublisherName>
     <MinimumRequiredVersion>1.0.0.8</MinimumRequiredVersion>
-    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>13</ApplicationRevision>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>14</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
