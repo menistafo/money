@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,26 @@ namespace money
         private void further_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            SqlConnection sqlConnection = new SqlConnection(@"Data Source=SUPPORT_1;Initial Catalog=test_programm;Integrated Security=True");
+
+            sqlConnection.Open(); // открываем базу данных
+
+
+            string a = String.Format("SELECT description FROM Introductory_information WHERE id = 'info_ds_1'");
+            SqlCommand cmd = new SqlCommand(a, sqlConnection); // создаём запрос
+            SqlDataReader reader = cmd.ExecuteReader(); // получаем данные
+            while (reader.Read())
+            {
+                textBlock2.Text = reader.GetValue(0).ToString();
+            }
+            //reader.Close();
+           
+
+            sqlConnection.Close();
         }
     }
 }

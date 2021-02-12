@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:money"
              mc:Ignorable="d" 
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-             Height="auto" Width="auto">
+             Height="auto" Width="auto" Loaded="UserControl_Loaded">
     <Grid Background="#FFEEEEEE" x:Name="info_ds2">
         <materialDesign:DialogHost BorderBrush="{DynamicResource MaterialDesignDivider}">
             <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
@@ -44,53 +44,44 @@
                                            MaxWidth="800" Grid.Column="1" 
                                            Grid.Row="1" VerticalAlignment="Center" Margin="0 0 0 10" 
                                            FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Center"/>
-                                <TextBlock TextWrapping="Wrap" 
-                                           Text="Группа занимается обработкой обращений, где в качестве обходного решения применяется однотипный скрипт"
+                                <TextBlock x:Name="textBlock1" TextWrapping="Wrap" 
+                                           Text=""
                                            MaxWidth="800" Grid.Column="1" 
                                            Grid.Row="2" VerticalAlignment="Center" Margin="0 0 0 10" 
                                            FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
-                                <TextBlock TextWrapping="Wrap" 
-                                           Text="У ДС нет специализации  на какой то определённый реестр, сотрудники обрабатывают обращение по всем основным направлениям:"
+                                <TextBlock x:Name="textBlock2" TextWrapping="Wrap"
                                            MaxWidth="800" Grid.Column="1" 
                                            Grid.Row="3" VerticalAlignment="Center" Margin="0 0 0 10" 
                                            FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
-                                <TextBlock TextWrapping="Wrap" 
-                                           Text="1) 44-ФЗ"
+                                <TextBlock x:Name="textBlock3" TextWrapping="Wrap"
                                            MaxWidth="800" Grid.Column="1" 
                                            Grid.Row="4" VerticalAlignment="Center" Margin="0 0 0 10" 
                                            FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
-                                <TextBlock TextWrapping="Wrap" 
-                                           Text="2) 223-ФЗ"
+                                <TextBlock x:Name="textBlock4" TextWrapping="Wrap"
                                            MaxWidth="800" Grid.Column="1" 
-                                           Grid.Row="5" VerticalAlignment="Center" Margin="0 0 0 10" 
+                                           Grid.Row="5" VerticalAlignment="Bottom" Margin="0 0 0 10" 
                                            FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
-                                <TextBlock TextWrapping="Wrap" 
-                                           Text="3) ЕРУЗ"
+                                <TextBlock x:Name="textBlock5" TextWrapping="Wrap"
                                            MaxWidth="800" Grid.Column="1" 
                                            Grid.Row="6" VerticalAlignment="Center" Margin="0 0 0 10" 
                                            FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
-                                <TextBlock TextWrapping="Wrap" 
-                                           Text="4) АСФК"
+                                <TextBlock x:Name="textBlock6" TextWrapping="Wrap"
                                            MaxWidth="800" Grid.Column="1" 
                                            Grid.Row="7" VerticalAlignment="Center" Margin="0 0 0 10" 
                                            FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
-                                <TextBlock TextWrapping="Wrap" 
-                                           Text="5) ЕИС ОЧ"
+                                <TextBlock x:Name="textBlock7" TextWrapping="Wrap"
                                            MaxWidth="800" Grid.Column="1" 
                                            Grid.Row="8" VerticalAlignment="Center" Margin="0 0 0 10" 
                                            FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
-                                <TextBlock TextWrapping="Wrap" 
-                                           Text="6) Интеграция 44-ФЗ"
+                                <TextBlock x:Name="textBlock8" TextWrapping="Wrap"
                                            MaxWidth="800" Grid.Column="1" 
                                            Grid.Row="9" VerticalAlignment="Center" Margin="0 0 0 10" 
                                            FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
-                                <TextBlock TextWrapping="Wrap" 
-                                           Text="Количество таких скриптов варьируется, в промежутках между выходами новых версий и особое внимание уделяется выходу глобальной версии раз в квартал"
+                                <TextBlock x:Name="textBlock9" TextWrapping="Wrap"
                                            MaxWidth="800" Grid.Column="1" 
                                            Grid.Row="10" VerticalAlignment="Center" Margin="0 0 0 10" 
                                            FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>
-                                <TextBlock TextWrapping="Wrap" 
-                                           Text="В среднем количество активных кейсов, по которым приходит основная часть обращений, составляет приблизительно 25. В среднем поступает 193 обращения в неделю."
+                                <TextBlock x:Name="textBlock10" TextWrapping="Wrap"
                                            MaxWidth="800" Grid.Column="1" 
                                            Grid.Row="11" VerticalAlignment="Center" Margin="0 0 0 10" 
                                            FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>

@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:money"
              mc:Ignorable="d" 
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-             Height="auto" Width="auto">
+             Height="auto" Width="auto" Loaded="UserControl_Loaded">
     <Grid Background="#FFEEEEEE" x:Name="ds_1">
         <materialDesign:DialogHost BorderBrush="{DynamicResource MaterialDesignDivider}">
             <materialDesign:TransitioningContent x:Name="TrainsitionigContentSlide" OpeningEffect="{materialDesign:TransitionEffect SlideInFromLeft, Duration=0:0:0.8}">
@@ -39,8 +39,8 @@
                                     <ColumnDefinition></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
                                 <TextBlock Text="График работы" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0 0 0 10" FontFamily="Times New Roman" FontSize="20"/>
-                                <TextBlock TextWrapping="Wrap" 
-                                           Text="Сотрудники дежурной группы работают 24 часа 7 дней в неделю, за исключением новогодних праздников, в этот период группа уходит на выходные 31 декабря и выходит сразу после выхода новой версии ЕИС."
+                                <TextBlock x:Name="textBlock2" TextWrapping="Wrap" 
+                                           Text="11111"
                                            MaxWidth="800" Grid.Column="1" 
                                            Grid.Row="1" VerticalAlignment="Center" Margin="0 0 0 10" 
                                            FontFamily="Times New Roman" FontSize="16" HorizontalAlignment="Left"/>                                
