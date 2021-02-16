@@ -118,6 +118,7 @@
     <Compile Include="Graph.xaml.cs">
       <DependentUpon>Graph.xaml</DependentUpon>
     </Compile>
+    <Compile Include="infods.cs" />
     <Compile Include="info_ds.xaml.cs">
       <DependentUpon>info_ds.xaml</DependentUpon>
     </Compile>

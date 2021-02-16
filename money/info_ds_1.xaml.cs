@@ -43,7 +43,8 @@ namespace money
             SqlDataReader reader = cmd.ExecuteReader(); // получаем данные
             while (reader.Read())
             {
-                textBlock2.Text = reader.GetValue(0).ToString();
+                string description = reader.GetValue(0).ToString();
+                textBlock2.Text = description;
             }
             //reader.Close();
            
